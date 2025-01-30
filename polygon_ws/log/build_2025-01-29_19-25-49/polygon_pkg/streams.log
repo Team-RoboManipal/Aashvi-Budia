@@ -1,0 +1,17 @@
+[0.397s] Invoking command in '/home/aashvi/polygon_ws/build/polygon_pkg': PYTHONPATH=/home/aashvi/polygon_ws/build/polygon_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/polygon_ws/install/polygon_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aashvi/polygon_ws/build/polygon_pkg/build --no-deps symlink_data
+[0.532s] running develop
+[0.614s] running egg_info
+[0.614s] writing polygon_pkg.egg-info/PKG-INFO
+[0.614s] writing dependency_links to polygon_pkg.egg-info/dependency_links.txt
+[0.615s] writing entry points to polygon_pkg.egg-info/entry_points.txt
+[0.615s] writing requirements to polygon_pkg.egg-info/requires.txt
+[0.615s] writing top-level names to polygon_pkg.egg-info/top_level.txt
+[0.616s] reading manifest file 'polygon_pkg.egg-info/SOURCES.txt'
+[0.616s] writing manifest file 'polygon_pkg.egg-info/SOURCES.txt'
+[0.617s] running build_ext
+[0.617s] Creating /home/aashvi/polygon_ws/install/polygon_pkg/lib/python3.10/site-packages/polygon-pkg.egg-link (link to .)
+[0.618s] Installing draw_polygon_server script to /home/aashvi/polygon_ws/install/polygon_pkg/lib/polygon_pkg
+[0.618s] 
+[0.618s] Installed /home/aashvi/polygon_ws/build/polygon_pkg
+[0.618s] running symlink_data
+[0.632s] Invoked command in '/home/aashvi/polygon_ws/build/polygon_pkg' returned '0': PYTHONPATH=/home/aashvi/polygon_ws/build/polygon_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/polygon_ws/install/polygon_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aashvi/polygon_ws/build/polygon_pkg/build --no-deps symlink_data

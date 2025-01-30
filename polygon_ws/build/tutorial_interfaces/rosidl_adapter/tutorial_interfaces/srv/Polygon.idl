@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/Polygon.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct Polygon_Request {
+      int64 n;
+    };
+    struct Polygon_Response {
+      boolean success;
+    };
+  };
+};

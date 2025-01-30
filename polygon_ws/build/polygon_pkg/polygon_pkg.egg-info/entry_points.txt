@@ -1,0 +1,3 @@
+[console_scripts]
+draw_polygon_server = polygon_pkg.service_member_function:main
+
