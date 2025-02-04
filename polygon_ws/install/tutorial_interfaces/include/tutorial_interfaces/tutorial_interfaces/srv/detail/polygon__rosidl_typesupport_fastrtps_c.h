@@ -1,1 +1,0 @@
-/home/aashvi/polygon_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/polygon__rosidl_typesupport_fastrtps_c.h
