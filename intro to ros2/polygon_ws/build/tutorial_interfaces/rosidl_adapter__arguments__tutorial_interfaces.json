@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/aashvi/polygon_ws/src/tutorial_interfaces:srv/Polygon.srv"
+  ]
+}

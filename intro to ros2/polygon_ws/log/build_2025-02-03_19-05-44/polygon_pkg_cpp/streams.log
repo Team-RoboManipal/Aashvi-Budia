@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/aashvi/polygon_ws/build/polygon_pkg_cpp': CMAKE_PREFIX_PATH=/home/aashvi/polygon_ws/install/tutorial_interfaces:/home/aashvi/polygon_ws/install/turtlesim:/home/aashvi/polygon_ws/install/polygon_pkg_cpp:/home/aashvi/ros2_ws/install/turtle_controller:/home/aashvi/ros2_ws/install/draw_d_cpp:/home/aashvi/ros2_ws/install/draw_circle_cpp:/home/aashvi/ros2_ws/install/turtlesim:/home/aashvi/ros2_ws/install/chat_pkg:/home/aashvi/install/draw_circle_cpp:/home/aashvi/polygon_ws/install/polygon_pkg:/home/aashvi/ros2_ws/install/turtle_mover:/home/aashvi/ros2_ws/install/my_robot_controller:/home/aashvi/ros2_ws/install/py_pubsub:/home/aashvi/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/aashvi/polygon_ws/src/polygon_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aashvi/polygon_ws/install/polygon_pkg_cpp
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.128s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.141s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.162s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.164s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.211s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.214s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.322s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.329s] -- Found turtlesim: 1.4.2 (/home/aashvi/polygon_ws/install/turtlesim/share/turtlesim/cmake)
+[0.357s] -- Found tutorial_interfaces: 0.0.0 (/home/aashvi/polygon_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.422s] -- Configuring done
+[0.435s] -- Generating done
+[0.438s] -- Build files have been written to: /home/aashvi/polygon_ws/build/polygon_pkg_cpp
+[0.446s] Invoked command in '/home/aashvi/polygon_ws/build/polygon_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/home/aashvi/polygon_ws/install/tutorial_interfaces:/home/aashvi/polygon_ws/install/turtlesim:/home/aashvi/polygon_ws/install/polygon_pkg_cpp:/home/aashvi/ros2_ws/install/turtle_controller:/home/aashvi/ros2_ws/install/draw_d_cpp:/home/aashvi/ros2_ws/install/draw_circle_cpp:/home/aashvi/ros2_ws/install/turtlesim:/home/aashvi/ros2_ws/install/chat_pkg:/home/aashvi/install/draw_circle_cpp:/home/aashvi/polygon_ws/install/polygon_pkg:/home/aashvi/ros2_ws/install/turtle_mover:/home/aashvi/ros2_ws/install/my_robot_controller:/home/aashvi/ros2_ws/install/py_pubsub:/home/aashvi/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/aashvi/polygon_ws/src/polygon_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aashvi/polygon_ws/install/polygon_pkg_cpp
+[0.446s] Invoking command in '/home/aashvi/polygon_ws/build/polygon_pkg_cpp': CMAKE_PREFIX_PATH=/home/aashvi/polygon_ws/install/tutorial_interfaces:/home/aashvi/polygon_ws/install/turtlesim:/home/aashvi/polygon_ws/install/polygon_pkg_cpp:/home/aashvi/ros2_ws/install/turtle_controller:/home/aashvi/ros2_ws/install/draw_d_cpp:/home/aashvi/ros2_ws/install/draw_circle_cpp:/home/aashvi/ros2_ws/install/turtlesim:/home/aashvi/ros2_ws/install/chat_pkg:/home/aashvi/install/draw_circle_cpp:/home/aashvi/polygon_ws/install/polygon_pkg:/home/aashvi/ros2_ws/install/turtle_mover:/home/aashvi/ros2_ws/install/my_robot_controller:/home/aashvi/ros2_ws/install/py_pubsub:/home/aashvi/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/aashvi/polygon_ws/build/polygon_pkg_cpp -- -j8 -l8
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target polygon_client[0m
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target draw_polygon_server[0m
+[0.481s] [ 25%] [32mBuilding CXX object CMakeFiles/draw_polygon_server.dir/src/service_server.cpp.o[0m
+[0.481s] [ 50%] [32m[1mLinking CXX executable polygon_client[0m
+[0.590s] [ 75%] Built target polygon_client
+[3.634s] [100%] [32m[1mLinking CXX executable draw_polygon_server[0m
+[3.796s] [100%] Built target draw_polygon_server
+[3.808s] Invoked command in '/home/aashvi/polygon_ws/build/polygon_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/home/aashvi/polygon_ws/install/tutorial_interfaces:/home/aashvi/polygon_ws/install/turtlesim:/home/aashvi/polygon_ws/install/polygon_pkg_cpp:/home/aashvi/ros2_ws/install/turtle_controller:/home/aashvi/ros2_ws/install/draw_d_cpp:/home/aashvi/ros2_ws/install/draw_circle_cpp:/home/aashvi/ros2_ws/install/turtlesim:/home/aashvi/ros2_ws/install/chat_pkg:/home/aashvi/install/draw_circle_cpp:/home/aashvi/polygon_ws/install/polygon_pkg:/home/aashvi/ros2_ws/install/turtle_mover:/home/aashvi/ros2_ws/install/my_robot_controller:/home/aashvi/ros2_ws/install/py_pubsub:/home/aashvi/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/aashvi/polygon_ws/build/polygon_pkg_cpp -- -j8 -l8
+[3.811s] Invoking command in '/home/aashvi/polygon_ws/build/polygon_pkg_cpp': CMAKE_PREFIX_PATH=/home/aashvi/polygon_ws/install/tutorial_interfaces:/home/aashvi/polygon_ws/install/turtlesim:/home/aashvi/polygon_ws/install/polygon_pkg_cpp:/home/aashvi/ros2_ws/install/turtle_controller:/home/aashvi/ros2_ws/install/draw_d_cpp:/home/aashvi/ros2_ws/install/draw_circle_cpp:/home/aashvi/ros2_ws/install/turtlesim:/home/aashvi/ros2_ws/install/chat_pkg:/home/aashvi/install/draw_circle_cpp:/home/aashvi/polygon_ws/install/polygon_pkg:/home/aashvi/ros2_ws/install/turtle_mover:/home/aashvi/ros2_ws/install/my_robot_controller:/home/aashvi/ros2_ws/install/py_pubsub:/home/aashvi/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/aashvi/polygon_ws/build/polygon_pkg_cpp
+[3.815s] -- Install configuration: ""
+[3.815s] -- Execute custom install script
+[3.815s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/lib/polygon_pkg_cpp/draw_polygon_server
+[3.819s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/lib/polygon_pkg_cpp/polygon_client
+[3.822s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/polygon_pkg_cpp
+[3.832s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/polygon_pkg_cpp
+[3.838s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/environment/ament_prefix_path.sh
+[3.842s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/environment/ament_prefix_path.dsv
+[3.846s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/environment/path.sh
+[3.851s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/environment/path.dsv
+[3.855s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/local_setup.bash
+[3.858s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/local_setup.sh
+[3.864s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/local_setup.zsh
+[3.867s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/local_setup.dsv
+[3.870s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/package.dsv
+[3.874s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/ament_index/resource_index/packages/polygon_pkg_cpp
+[3.877s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/cmake/polygon_pkg_cppConfig.cmake
+[3.880s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/cmake/polygon_pkg_cppConfig-version.cmake
+[3.885s] -- Symlinking: /home/aashvi/polygon_ws/install/polygon_pkg_cpp/share/polygon_pkg_cpp/package.xml
+[3.893s] Invoked command in '/home/aashvi/polygon_ws/build/polygon_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/home/aashvi/polygon_ws/install/tutorial_interfaces:/home/aashvi/polygon_ws/install/turtlesim:/home/aashvi/polygon_ws/install/polygon_pkg_cpp:/home/aashvi/ros2_ws/install/turtle_controller:/home/aashvi/ros2_ws/install/draw_d_cpp:/home/aashvi/ros2_ws/install/draw_circle_cpp:/home/aashvi/ros2_ws/install/turtlesim:/home/aashvi/ros2_ws/install/chat_pkg:/home/aashvi/install/draw_circle_cpp:/home/aashvi/polygon_ws/install/polygon_pkg:/home/aashvi/ros2_ws/install/turtle_mover:/home/aashvi/ros2_ws/install/my_robot_controller:/home/aashvi/ros2_ws/install/py_pubsub:/home/aashvi/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/aashvi/polygon_ws/build/polygon_pkg_cpp

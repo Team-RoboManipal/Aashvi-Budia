@@ -1,0 +1,18 @@
+[0.563s] Invoking command in '/home/aashvi/polygon_ws/build/polygon_pkg': PYTHONPATH=/home/aashvi/polygon_ws/build/polygon_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/polygon_ws/install/polygon_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aashvi/polygon_ws/build/polygon_pkg/build --no-deps symlink_data
+[0.704s] running develop
+[0.791s] running egg_info
+[0.791s] writing polygon_pkg.egg-info/PKG-INFO
+[0.792s] writing dependency_links to polygon_pkg.egg-info/dependency_links.txt
+[0.792s] writing entry points to polygon_pkg.egg-info/entry_points.txt
+[0.793s] writing requirements to polygon_pkg.egg-info/requires.txt
+[0.793s] writing top-level names to polygon_pkg.egg-info/top_level.txt
+[0.793s] reading manifest file 'polygon_pkg.egg-info/SOURCES.txt'
+[0.794s] writing manifest file 'polygon_pkg.egg-info/SOURCES.txt'
+[0.794s] running build_ext
+[0.795s] Creating /home/aashvi/polygon_ws/install/polygon_pkg/lib/python3.10/site-packages/polygon-pkg.egg-link (link to .)
+[0.795s] Installing draw_polygon_server script to /home/aashvi/polygon_ws/install/polygon_pkg/lib/polygon_pkg
+[0.795s] Installing polygon_client script to /home/aashvi/polygon_ws/install/polygon_pkg/lib/polygon_pkg
+[0.795s] 
+[0.796s] Installed /home/aashvi/polygon_ws/build/polygon_pkg
+[0.796s] running symlink_data
+[0.813s] Invoked command in '/home/aashvi/polygon_ws/build/polygon_pkg' returned '0': PYTHONPATH=/home/aashvi/polygon_ws/build/polygon_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/polygon_ws/install/polygon_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aashvi/polygon_ws/build/polygon_pkg/build --no-deps symlink_data
