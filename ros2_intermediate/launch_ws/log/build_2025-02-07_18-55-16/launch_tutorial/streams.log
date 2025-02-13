@@ -1,0 +1,22 @@
+[0.315s] Invoking command in '/home/aashvi/launch_ws/src/launch_tutorial': PYTHONPATH=/home/aashvi/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/aashvi/launch_ws/build/launch_tutorial/build install --record /home/aashvi/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[0.423s] running egg_info
+[0.423s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[0.423s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[0.424s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[0.424s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[0.424s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[0.425s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.425s] adding license file 'LICENSE'
+[0.426s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.426s] running build
+[0.426s] running build_py
+[0.426s] running install
+[0.426s] running install_lib
+[0.427s] running install_data
+[0.427s] copying launch/example_event_handlers.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.427s] running install_egg_info
+[0.429s] removing '/home/aashvi/launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[0.429s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/aashvi/launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[0.430s] running install_scripts
+[0.439s] writing list of installed files to '/home/aashvi/launch_ws/build/launch_tutorial/install.log'
+[0.451s] Invoked command in '/home/aashvi/launch_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/aashvi/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/aashvi/launch_ws/build/launch_tutorial/build install --record /home/aashvi/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data

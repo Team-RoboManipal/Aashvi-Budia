@@ -1,0 +1,27 @@
+[0.334s] Invoking command in '/home/aashvi/launch_ws/src/learning_tf2_py': PYTHONPATH=/home/aashvi/launch_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/launch_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/aashvi/launch_ws/build/learning_tf2_py/build install --record /home/aashvi/launch_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[0.444s] running egg_info
+[0.444s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.446s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.446s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.446s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.446s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.447s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.447s] adding license file 'LICENSE'
+[0.447s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.448s] running build
+[0.448s] running build_py
+[0.448s] copying learning_tf2_py/turtle_tf2_listener.py -> /home/aashvi/launch_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.448s] running install
+[0.448s] running install_lib
+[0.449s] copying /home/aashvi/launch_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/aashvi/launch_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[0.449s] byte-compiling /home/aashvi/launch_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+[0.450s] running install_data
+[0.450s] copying launch/turtle_tf2_demo.launch.py -> /home/aashvi/launch_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[0.450s] running install_egg_info
+[0.451s] removing '/home/aashvi/launch_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.451s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/aashvi/launch_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[0.452s] running install_scripts
+[0.461s] Installing static_turtle_tf2_broadcaster script to /home/aashvi/launch_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.461s] Installing turtle_tf2_broadcaster script to /home/aashvi/launch_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.462s] writing list of installed files to '/home/aashvi/launch_ws/build/learning_tf2_py/install.log'
+[0.473s] Invoked command in '/home/aashvi/launch_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/aashvi/launch_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashvi/launch_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/aashvi/launch_ws/build/learning_tf2_py/build install --record /home/aashvi/launch_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data

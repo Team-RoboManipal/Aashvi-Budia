@@ -1,0 +1,37 @@
+running develop
+running egg_info
+writing launch_tutorial.egg-info/PKG-INFO
+writing dependency_links to launch_tutorial.egg-info/dependency_links.txt
+writing entry points to launch_tutorial.egg-info/entry_points.txt
+writing requirements to launch_tutorial.egg-info/requires.txt
+writing top-level names to launch_tutorial.egg-info/top_level.txt
+reading manifest file 'launch_tutorial.egg-info/SOURCES.txt'
+writing manifest file 'launch_tutorial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aashvi/launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch-tutorial.egg-link (link to .)
+
+Installed /home/aashvi/launch_ws/build/launch_tutorial
+running symlink_data
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/resource/launch_tutorial -> /home/aashvi/launch_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/package.xml -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/broadcaster_listener.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/fixer_broadcaster.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/turtlesim_world_2.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/launch_turtlesim.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/mimic.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/example_substitutions.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/turtlesim_world_3.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/turtlesim_rviz.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/example_event_handlers.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/example_main.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/broadcaster_listener.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/fixer_broadcaster.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/turtlesim_world_2.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/launch_turtlesim.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/mimic.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/example_substitutions.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/turtlesim_world_3.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/turtlesim_rviz.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/example_event_handlers.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/launch/example_main.launch.py -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+symbolically linking /home/aashvi/launch_ws/build/launch_tutorial/config/turtlesim.yaml -> /home/aashvi/launch_ws/install/launch_tutorial/share/launch_tutorial/config
