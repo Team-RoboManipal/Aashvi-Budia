@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aashvi/launch_ws/build/learning_tf2_cpp/static_turtle_tf2_broadcaster" "TARGETS" "static_turtle_tf2_broadcaster" "DESTINATION" "lib/learning_tf2_cpp")

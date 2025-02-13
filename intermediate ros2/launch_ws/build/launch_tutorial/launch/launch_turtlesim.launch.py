@@ -1,1 +1,0 @@
-/home/aashvi/launch_ws/src/launch_tutorial/launch/launch_turtlesim.launch.py

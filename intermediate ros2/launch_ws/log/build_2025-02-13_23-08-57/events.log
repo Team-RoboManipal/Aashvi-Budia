@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000512] (-) JobUnselected: {'identifier': 'launch_tutorial'}
-[0.000540] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
-[0.000561] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
-[0.000584] (-) JobUnselected: {'identifier': 'py_launch_example'}
-[0.000733] (-) JobUnselected: {'identifier': 'urdf_launch'}
-[0.000743] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
-[0.000750] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
-[0.000758] (-) EventReactorShutdown: {}

@@ -1,1 +1,0 @@
-/home/aashvi/launch_ws/src/launch_tutorial/launch/turtlesim_rviz.launch.py
