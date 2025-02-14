@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:45 (add_executable):
+  add_executable cannot create target "turtle_tf2_listener" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/aashvi/launch_ws/src/learning_tf2_cpp".  See documentation for
+  policy CMP0002 for more details.
+
+[0m

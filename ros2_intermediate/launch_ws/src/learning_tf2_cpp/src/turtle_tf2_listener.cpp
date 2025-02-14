@@ -59,9 +59,16 @@ private:
         // Look up for the transformation between target_frame and turtle2 frames
         // and send velocity commands for turtle2 to reach target_frame
         try {
+          rclcpp::Time now = this->get_clock()->now();
+          rclcpp::Time when = now - rclcpp::Duration(5, 0);
           t = tf_buffer_->lookupTransform(
-            toFrameRel, fromFrameRel,
-            tf2::TimePointZero);
+              toFrameRel,
+              now,
+              fromFrameRel,
+              when,
+              "world",
+              50ms);
+          
         } catch (const tf2::TransformException & ex) {
           RCLCPP_INFO(
             this->get_logger(), "Could not transform %s to %s: %s",

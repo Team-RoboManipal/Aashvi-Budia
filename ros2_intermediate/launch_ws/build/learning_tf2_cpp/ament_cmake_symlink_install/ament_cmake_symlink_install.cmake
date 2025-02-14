@@ -322,6 +322,12 @@ ament_cmake_symlink_install_directory("/home/aashvi/launch_ws/src/learning_tf2_c
 # install("TARGETS" "turtle_tf2_listener" "DESTINATION" "lib/learning_tf2_cpp")
 include("/home/aashvi/launch_ws/build/learning_tf2_cpp/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install("TARGETS" "fixed_frame_tf2_broadcaster" "DESTINATION" "lib/learning_tf2_cpp")
+include("/home/aashvi/launch_ws/build/learning_tf2_cpp/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "dynamic_frame_tf2_broadcaster" "DESTINATION" "lib/learning_tf2_cpp")
+include("/home/aashvi/launch_ws/build/learning_tf2_cpp/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/aashvi/launch_ws/build/learning_tf2_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/aashvi/launch_ws/src/learning_tf2_cpp" FILES "/home/aashvi/launch_ws/build/learning_tf2_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
