@@ -1,1 +1,0 @@
-/home/aashvi/polygon_ws/build/polygon_pkg_cpp/ament_cmake_environment_hooks/local_setup.zsh

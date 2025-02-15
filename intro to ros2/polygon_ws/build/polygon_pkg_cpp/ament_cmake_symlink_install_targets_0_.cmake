@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aashvi/polygon_ws/build/polygon_pkg_cpp/draw_polygon_server" "/home/aashvi/polygon_ws/build/polygon_pkg_cpp/polygon_client" "TARGETS" "draw_polygon_server" "polygon_client" "DESTINATION" "lib/polygon_pkg_cpp")
