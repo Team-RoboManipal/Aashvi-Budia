@@ -1,0 +1,23 @@
+def isLinear(x):
+    isLinear=True
+    for i in x:
+        if(type(i)==list):
+            isLinear=False
+            break
+    return isLinear
+
+n=[]
+inp=eval(input("Enter the nested loop: "))
+n=inp  
+
+while(isLinear(n)!=True): 
+    x=[]                           
+    for i in n:          
+        if(type(i)!=list):         
+            x.append(i)
+        else:                       
+            for j in range(0,len(i)):
+                x.append(i[j])
+        n=x
+                                  
+print(n)

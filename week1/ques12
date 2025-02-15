@@ -1,0 +1,8 @@
+x=input('enter string')
+a=[]
+t=0
+y=x.split()
+for i in y:
+    t=len(i)
+    a.append(t)
+print(a)

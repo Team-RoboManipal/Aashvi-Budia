@@ -1,0 +1,15 @@
+a={}
+a=set()
+x=0
+i=0
+b={}
+b=set()
+while x==0:
+    y=int(input("Enter the element in set1"))
+    x=int(input("Enter 0 to add more elements press 1 to exit"))
+    a.add(y)
+while i==0:
+    j=int(input("Enter the element in set2"))
+    i=int(input("Enter 0 to add more elements press 1 to exit"))
+    b.add(j)
+print(a.intersection(b))

@@ -1,0 +1,17 @@
+a=eval(input("Enter the list :"))
+b=[]                  
+c=a[0]          
+b.append(c)
+for i in a:         
+    if(i>c):                
+        b.append(i)
+        c=i
+    else:
+        b=[i]
+        c=i
+                
+n=0
+for i in b:                                            
+    n+=len(str(i))
+
+print(n)

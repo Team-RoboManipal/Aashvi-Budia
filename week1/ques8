@@ -1,0 +1,21 @@
+x=input("enter first string:")
+y=input("enter second string:")
+a={}
+b={}
+for i in x:
+    c=a.keys()
+    if i.lower() in c:
+      a[i.lower()]=a[i.lower()]+1
+    else:
+       a[i.lower()]=1
+
+for j in y:
+    d=b.keys()
+    if j.lower() in d:
+      b[j.lower()]=b[j.lower()]+1
+    else:
+       b[j.lower()]=1
+if a==b:
+   print('Anagram')
+else:
+   print("Not an anagram")

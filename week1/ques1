@@ -1,0 +1,10 @@
+t=0
+while t==0:
+  a=int(input("Enter a number:"))
+  if a%2==0:
+    print("Even")
+  elif a==1:
+    print("The number is neither odd or even:")
+  else:
+    print("Odd")
+  t=int(input("Press 0 to check another number, 1 to exit:"))

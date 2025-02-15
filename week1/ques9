@@ -1,0 +1,8 @@
+a=eval(input('Enter list1:'))
+b=eval(input('Enter list2:'))
+c=[]
+for i in a:
+   for j in b:
+      if i==j:
+         c.append(i)
+print("the intersecting list is",c)

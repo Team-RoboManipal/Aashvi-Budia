@@ -1,0 +1,7 @@
+c=eval(input("enter key list"))
+d=eval(input("enter value list"))
+e={}
+f=len(d)
+for j in range(f):
+    e[c[j]]=d[j]
+print(e)

@@ -1,0 +1,27 @@
+st=[]
+x=0
+while x==0:
+    x=1
+    a=int(input("1. PUSH 2. POP 3. CHECK IF EMPTY"))
+    if a==1:
+        n=eval(input("enter elemnt to be pushed"))
+        st.append(n)
+        print("new stack",st)
+        x=int(input("press 0 to go to main menu, 1 to exit"))
+    elif a==2:
+        st.pop()
+        print("new stack",st)
+        x=int(input("press 0 to go to main menu, 1 to exit"))
+    elif a==3:
+        if len(st)==0:
+            print("stack empty")
+        else:
+            print("stack not empty")
+            print("stack=",st)
+        x=int(input("press 0 to go to main menu, 1 to exit"))
+    
+    else:
+        print("invalid option")
+        x=0
+
+    

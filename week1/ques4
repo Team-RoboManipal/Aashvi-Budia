@@ -1,0 +1,9 @@
+x=0
+
+while x==0:
+    t=""
+    a=eval(input("enter the list:"))
+    for i in a:
+        t=t+i
+    print(t)
+    x=int(input("enter 0 to conitnue, 1 to exit"))

@@ -1,0 +1,14 @@
+inp=eval(input("enter the list of dictionories:"))
+
+x=input("enter the sorting key:")
+y=[]
+n=[]
+for i in inp:
+    y.append(i[x])
+y.sort()
+
+for j in y:
+    for k in inp:
+        if k[x]==j:
+            n.append(k)
+print(n)

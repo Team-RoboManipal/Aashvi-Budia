@@ -1,0 +1,22 @@
+a=[]
+t=0
+while t==0:
+    b=int(input("enter the number, 1. Insert 2. Delete 3. Traverse"))
+    t=1
+    if b==1:
+        x=int(input("Enter number to be added"))
+        a.append(x)
+    elif b==2:
+        y=int(input("enter number to be deleted"))
+        if y in a:
+            a.remove(y)
+        else:
+            print("Number not in list")
+    elif b==3:
+        for i in a:
+            print(i)
+    else: 
+        print("Invalid option")
+        t=0
+    t=int(input("press 0 to go to main menu, 1 to exit"))
+
