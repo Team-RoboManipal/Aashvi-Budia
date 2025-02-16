@@ -1,0 +1,12 @@
+<library path="point_display">
+  <class name="Point2D" type="rviz_plugin_tutorial::PointDisplay" base_class_type="rviz_common::Display">
+    <description>Tutorial to display a point</description>
+    <message_type>rviz_plugin_tutorial_msgs/msg/Point2D</message_type>
+  </class>
+</library>
+
+<library path="demo_panel">
+  <class type="rviz_panel_tutorial::DemoPanel" base_class_type="rviz_common::Panel">
+    <description></description>
+  </class>
+</library>

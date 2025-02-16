@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/include/**",
+        "/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs/include/**",
+        "/Users/dgawade/miniconda3/envs/ros_env/include/**",
+        "/Users/dgawade/ros_rviz/src/rviz_plugin_tutorial/rviz_plugin_tutorial/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

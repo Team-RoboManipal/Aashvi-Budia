@@ -1,0 +1,95 @@
+[0.094s] Invoking command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial_msgs:/Users/dgawade/second_ros2_ws/install:/Users/dgawade/second_ros2_ws/install/urdf_tutorial_r2d2 CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial -- -j4 -l4
+[0.275s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.275s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.275s]   CMake.
+[0.275s] 
+[0.276s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.276s]   to tell CMake that the project requires at least <min> but has been updated
+[0.276s]   to work with policies introduced by <max> or earlier.
+[0.276s] 
+[0.276s] 
+[0.376s] -- Found ament_cmake: 1.3.11 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[1.319s] -- Found ament_cmake_ros: 0.10.0 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_cmake_ros/cmake)
+[1.351s] -- Found pluginlib: 5.1.0 (/Users/dgawade/miniconda3/envs/ros_env/share/pluginlib/cmake)
+[1.436s] -- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+[1.443s] -- Found rviz_common: 11.2.15 (/Users/dgawade/miniconda3/envs/ros_env/share/rviz_common/cmake)
+[2.332s] -- Setting assimp_DIR to: '/Users/dgawade/miniconda3/envs/ros_env/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.363s] -- Setting OGRE_DIR to: '/Users/dgawade/miniconda3/envs/ros_env/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/CMake'
+[2.379s] -- Found OGRE
+[2.379s] --   static     : OFF
+[2.379s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.380s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage
+[2.380s] --   media      : /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/Media
+[2.380s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.380s] -- OGRE_LIBRARY_DIRS: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib
+[2.380s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage
+[2.381s] -- OGRE_PLUGIN_DIR: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/OGRE
+[2.381s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreOverlay.dylib
+[2.381s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreOverlay.dylib
+[2.381s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreMain.dylib
+[2.381s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreMain.dylib
+[3.252s] -- library: /Users/dgawade/miniconda3/envs/ros_env/lib/libcurl.dylib
+[3.364s] -- Found rosidl_generator_c: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+[3.377s] -- Found rosidl_adapter: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_adapter/cmake)
+[3.408s] -- Found rosidl_generator_cpp: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[3.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.106s] -- Found rmw_implementation_cmake: 6.1.2 (/Users/dgawade/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[4.114s] -- Found rmw_fastrtps_cpp: 6.2.7 (/Users/dgawade/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[4.219s] -- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+[4.398s] -- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+[4.588s] -- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+[4.731s] -- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+[4.870s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.222s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.770s] -- Found rviz_plugin_tutorial_msgs: 0.0.0 (/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs/share/rviz_plugin_tutorial_msgs/cmake)
+[5.835s] -- Found ament_lint_auto: 0.12.11 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+[6.127s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.133s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.133s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/Users/dgawade/ros_rviz/src/rviz_plugin_tutorial/rviz_plugin_tutorial/include>
+[6.133s] -- Configured cppcheck exclude dirs and/or files: 
+[6.136s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.136s] -- Configured cpplint exclude dirs and/or files: 
+[6.138s] -- Added test 'lint_cmake' to check CMake code style
+[6.146s] -- Added test 'uncrustify' to check C / C++ code style
+[6.146s] -- Configured uncrustify additional arguments: 
+[6.148s] -- Added test 'xmllint' to check XML markup files
+[6.156s] -- Configuring done (5.9s)
+[6.444s] -- Generating done (0.3s)
+[6.447s] -- Build files have been written to: /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial
+[6.625s] [  0%] Built target point_display_autogen_timestamp_deps
+[6.793s] [ 14%] Automatic MOC for target point_display
+[6.924s] [ 14%] Built target point_display_autogen
+[7.368s] [ 28%] Linking CXX shared library libpoint_display.dylib
+[8.295s] [100%] Built target point_display
+[8.327s] Invoked command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial_msgs:/Users/dgawade/second_ros2_ws/install:/Users/dgawade/second_ros2_ws/install/urdf_tutorial_r2d2 CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial -- -j4 -l4
+[8.969s] Invoking command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial_msgs:/Users/dgawade/second_ros2_ws/install:/Users/dgawade/second_ros2_ws/install/urdf_tutorial_r2d2 CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial
+[8.998s] -- Install configuration: ""
+[8.998s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/lib/libpoint_display.dylib
+[9.025s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/include
+[9.026s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/include/rviz_plugin_tutorial
+[9.026s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/include/rviz_plugin_tutorial/point_display.hpp
+[9.027s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/rviz_common_plugins.xml
+[9.029s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/icons/classes/Point2D.png
+[9.030s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/rviz_common_plugins.xml
+[9.030s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorial
+[9.031s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorial
+[9.033s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/ament_prefix_path.sh
+[9.035s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/ament_prefix_path.dsv
+[9.036s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/path.sh
+[9.041s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/path.dsv
+[9.041s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.bash
+[9.041s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.sh
+[9.041s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.zsh
+[9.042s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.dsv
+[9.042s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/package.dsv
+[9.044s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/packages/rviz_plugin_tutorial
+[9.044s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorial
+[9.046s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/export_rviz_plugin_tutorialExport.cmake
+[9.047s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/export_rviz_plugin_tutorialExport-noconfig.cmake
+[9.047s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.047s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+[9.048s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/rviz_plugin_tutorialConfig.cmake
+[9.048s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/rviz_plugin_tutorialConfig-version.cmake
+[9.048s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/package.xml
+[9.054s] Invoked command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env:/Users/dgawade/second_ros2_ws/install/rviz_plugin_tutorial_msgs:/Users/dgawade/second_ros2_ws/install:/Users/dgawade/second_ros2_ws/install/urdf_tutorial_r2d2 CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial

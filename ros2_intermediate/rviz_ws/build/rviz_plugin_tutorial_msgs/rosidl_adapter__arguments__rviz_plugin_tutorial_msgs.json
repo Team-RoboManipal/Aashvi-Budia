@@ -1,0 +1,6 @@
+{
+  "package_name": "rviz_plugin_tutorial_msgs",
+  "non_idl_tuples": [
+    "/Users/dgawade/ros_rviz/src/rviz_plugin_tutorial/rviz_plugin_tutorial_msgs:msg/Point2D.msg"
+  ]
+}

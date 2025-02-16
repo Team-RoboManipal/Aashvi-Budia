@@ -1,0 +1,36 @@
+[0.069s] Invoking command in '/Users/dgawade/ros_rviz/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/dgawade/ros_ws2/install/robo_desc:/Users/dgawade/ros_ws2/install/learning_tf2_py:/Users/dgawade/ros_ws2/install/launch_tutorial CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/dgawade/ros_rviz/build/rviz_panel_tutorial -- -j4 -l4
+[0.525s] [  0%] Built target demo_panel_autogen_timestamp_deps
+[0.787s] [ 14%] Built target demo_panel_autogen
+[1.128s] [100%] Built target demo_panel
+[1.166s] Invoked command in '/Users/dgawade/ros_rviz/build/rviz_panel_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/dgawade/ros_ws2/install/robo_desc:/Users/dgawade/ros_ws2/install/learning_tf2_py:/Users/dgawade/ros_ws2/install/launch_tutorial CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/dgawade/ros_rviz/build/rviz_panel_tutorial -- -j4 -l4
+[1.933s] Invoking command in '/Users/dgawade/ros_rviz/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/dgawade/ros_ws2/install/robo_desc:/Users/dgawade/ros_ws2/install/learning_tf2_py:/Users/dgawade/ros_ws2/install/launch_tutorial CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/dgawade/ros_rviz/build/rviz_panel_tutorial
+[1.955s] -- Install configuration: ""
+[1.956s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/lib/libdemo_panel.dylib
+[1.976s] error: /Users/dgawade/miniconda3/envs/ros_env/bin/install_name_tool: no LC_RPATH load command with path: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib found in: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/lib/libdemo_panel.dylib (for architecture x86_64), required for specified option "-delete_rpath /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib"
+[1.977s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/include
+[1.977s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/include/rviz_panel_tutorial
+[1.978s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/include/rviz_panel_tutorial/demo_panel.hpp
+[1.978s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+[1.978s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/icons/classes/DemoPanel.png
+[1.978s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+[1.979s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_panel_tutorial
+[1.979s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_panel_tutorial
+[1.979s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.sh
+[1.979s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.dsv
+[1.980s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.sh
+[1.980s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.dsv
+[1.980s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.bash
+[1.981s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.sh
+[1.981s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.zsh
+[1.981s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.dsv
+[1.981s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.dsv
+[1.984s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/packages/rviz_panel_tutorial
+[1.984s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_panel_tutorial
+[1.987s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport.cmake
+[1.987s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport-noconfig.cmake
+[1.987s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.987s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+[1.988s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig.cmake
+[1.988s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig-version.cmake
+[1.988s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.xml
+[1.990s] Invoked command in '/Users/dgawade/ros_rviz/build/rviz_panel_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/dgawade/ros_ws2/install/robo_desc:/Users/dgawade/ros_ws2/install/learning_tf2_py:/Users/dgawade/ros_ws2/install/launch_tutorial CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/dgawade/ros_rviz/build/rviz_panel_tutorial

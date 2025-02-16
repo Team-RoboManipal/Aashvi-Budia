@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.11 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_cmake_ros/cmake)
+-- Found pluginlib: 5.1.0 (/Users/dgawade/miniconda3/envs/ros_env/share/pluginlib/cmake)
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found rviz_common: 11.2.15 (/Users/dgawade/miniconda3/envs/ros_env/share/rviz_common/cmake)
+-- Setting assimp_DIR to: '/Users/dgawade/miniconda3/envs/ros_env/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/Users/dgawade/miniconda3/envs/ros_env/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/CMake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage
+--   media      : /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage
+-- OGRE_PLUGIN_DIR: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreOverlay.dylib
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreOverlay.dylib
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreMain.dylib
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreMain.dylib
+-- library: /Users/dgawade/miniconda3/envs/ros_env/lib/libcurl.dylib
+-- Found rosidl_generator_c: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/Users/dgawade/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/Users/dgawade/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rviz_plugin_tutorial_msgs: 0.0.0 (/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs/share/rviz_plugin_tutorial_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+-- Configuring incomplete, errors occurred!

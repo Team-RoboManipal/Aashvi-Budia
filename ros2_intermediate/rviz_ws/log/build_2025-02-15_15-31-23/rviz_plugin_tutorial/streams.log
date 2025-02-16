@@ -1,0 +1,38 @@
+[0.086s] Invoking command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial -- -j4 -l4
+[0.445s] [  0%] Built target point_display_autogen_timestamp_deps
+[0.578s] [ 14%] Automatic MOC for target point_display
+[0.683s] [ 14%] Built target point_display_autogen
+[1.003s] [ 28%] Building CXX object CMakeFiles/point_display.dir/src/point_display.cpp.o
+[21.772s] [ 42%] Linking CXX shared library libpoint_display.dylib
+[22.454s] [100%] Built target point_display
+[22.483s] Invoked command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial -- -j4 -l4
+[22.945s] Invoking command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial
+[22.975s] -- Install configuration: ""
+[22.977s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/lib/libpoint_display.dylib
+[23.002s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/include
+[23.002s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/include/rviz_plugin_tutorial
+[23.003s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/include/rviz_plugin_tutorial/point_display.hpp
+[23.003s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/rviz_common_plugins.xml
+[23.003s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/icons/classes/Point2D.png
+[23.003s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/rviz_common_plugins.xml
+[23.003s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorial
+[23.003s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorial
+[23.004s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/ament_prefix_path.sh
+[23.004s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/ament_prefix_path.dsv
+[23.005s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/path.sh
+[23.005s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/path.dsv
+[23.005s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.bash
+[23.006s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.sh
+[23.006s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.zsh
+[23.007s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.dsv
+[23.007s] -- Installing: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/package.dsv
+[23.009s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/packages/rviz_plugin_tutorial
+[23.009s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorial
+[23.012s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/export_rviz_plugin_tutorialExport.cmake
+[23.012s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/export_rviz_plugin_tutorialExport-noconfig.cmake
+[23.012s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.013s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+[23.013s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/rviz_plugin_tutorialConfig.cmake
+[23.013s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/rviz_plugin_tutorialConfig-version.cmake
+[23.013s] -- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/package.xml
+[23.017s] Invoked command in '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial_msgs:/Users/dgawade/ros_rviz/install/rviz_plugin_tutorial:/Users/dgawade/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial

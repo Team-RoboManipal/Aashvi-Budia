@@ -1,0 +1,59 @@
+-- The C compiler identification is Clang 18.1.7
+-- The CXX compiler identification is Clang 18.1.7
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/aashvibudia/miniconda3/envs/ros_humble/bin/arm64-apple-darwin20.0.0-clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/aashvibudia/miniconda3/envs/ros_humble/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/Users/aashvibudia/miniconda3/envs/ros_humble/share/ament_cmake/cmake)
+-- Found Python3: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/Users/aashvibudia/miniconda3/envs/ros_humble/share/ament_lint_auto/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/aashvibudia/urdf_ws/build/urdf_tutorial
+-- Install configuration: ""
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/images
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/images/origins.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/images/myfirst.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/images/visual.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/images/multipleshapes.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/images/flexible.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/images/materials.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/meshes
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip_color.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip.dae
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_color.png
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger.dae
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/rviz
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/07-physics.urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/05-visual.urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/06-flexible.urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+-- Installing: /Users/aashvibudia/urdf_ws/install/urdf_tutorial/share/urdf_tutorial/package.xml

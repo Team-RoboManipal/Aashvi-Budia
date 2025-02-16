@@ -1,0 +1,97 @@
+-- The C compiler identification is Clang 18.1.8
+-- The CXX compiler identification is Clang 18.1.8
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+-- Found Python3: /Users/dgawade/miniconda3/envs/ros_env/bin/python3 (found version "3.11.8") found components: Interpreter
+-- Found ament_cmake_ros: 0.10.0 (/Users/dgawade/miniconda3/envs/ros_env/share/ament_cmake_ros/cmake)
+-- Found pluginlib: 5.1.0 (/Users/dgawade/miniconda3/envs/ros_env/share/pluginlib/cmake)
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found rviz_common: 11.2.15 (/Users/dgawade/miniconda3/envs/ros_env/share/rviz_common/cmake)
+-- Setting assimp_DIR to: '/Users/dgawade/miniconda3/envs/ros_env/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/Users/dgawade/miniconda3/envs/ros_env/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/CMake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage
+--   media      : /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_FreeImage
+-- OGRE_PLUGIN_DIR: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreOverlay.dylib
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreOverlay.dylib
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreMain.dylib
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /Users/dgawade/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib/libOgreMain.dylib
+-- Found ZLIB: /Users/dgawade/miniconda3/envs/ros_env/lib/libz.dylib (found version "1.3.1")
+-- Found OpenGL: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
+-- library: /Users/dgawade/miniconda3/envs/ros_env/lib/libcurl.dylib
+-- Found rosidl_generator_c: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/Users/dgawade/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found rmw_implementation_cmake: 6.1.2 (/Users/dgawade/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/Users/dgawade/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found OpenSSL: /Users/dgawade/miniconda3/envs/ros_env/lib/libcrypto.dylib (found version "3.4.0")
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found FastRTPS: /Users/dgawade/miniconda3/envs/ros_env/include
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /Users/dgawade/miniconda3/envs/ros_env/lib/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found Eigen3: TRUE (found version "3.4.0")
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (21.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/dgawade/ros_rviz/build/rviz_panel_tutorial
+[  0%] Built target demo_panel_autogen_timestamp_deps
+[ 14%] Automatic MOC for target demo_panel
+[ 14%] Built target demo_panel_autogen
+[ 28%] Generating include/rviz_panel_tutorial/moc_demo_panel.cpp
+[ 57%] Building CXX object CMakeFiles/demo_panel.dir/demo_panel_autogen/mocs_compilation.cpp.o
+[ 57%] Building CXX object CMakeFiles/demo_panel.dir/src/demo_panel.cpp.o
+[ 71%] Building CXX object CMakeFiles/demo_panel.dir/include/rviz_panel_tutorial/moc_demo_panel.cpp.o
+[ 85%] Linking CXX shared library libdemo_panel.dylib
+[100%] Built target demo_panel
+-- Install configuration: ""
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/lib/libdemo_panel.dylib
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/include
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/include/rviz_panel_tutorial
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/include/rviz_panel_tutorial/demo_panel.hpp
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/icons/classes/DemoPanel.png
+-- Up-to-date: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_panel_tutorial
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_panel_tutorial
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.sh
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.dsv
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.sh
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.dsv
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.bash
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.sh
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.zsh
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.dsv
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.dsv
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/packages/rviz_panel_tutorial
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_panel_tutorial
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport.cmake
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport-noconfig.cmake
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig.cmake
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig-version.cmake
+-- Installing: /Users/dgawade/ros_rviz/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.xml

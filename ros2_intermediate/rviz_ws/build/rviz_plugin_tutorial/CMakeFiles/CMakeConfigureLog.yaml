@@ -1,0 +1,488 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 24.1.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/dgawade/miniconda3/envs/ros_env/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/3.31.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang++ 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/dgawade/miniconda3/envs/ros_env/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/3.31.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU"
+      binary: "/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /Users/dgawade/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_bf2a6/fast
+        /Users/dgawade/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_bf2a6.dir/build.make CMakeFiles/cmTC_bf2a6.dir/build
+        make[1]: Entering directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU'
+        Building C object CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o
+        /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 18.1.8
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin
+        x86_64-apple-darwin13.4: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/Users/dgawade/miniconda3/envs/ros_env/bin/clang-18" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fbuiltin-headers-in-system-modules -fdefine-target-os-macros -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU -resource-dir /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18 -dependency-file CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/dgawade/miniconda3/envs/ros_env/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-apple-darwin24.1.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/dgawade/miniconda3/envs/ros_env/include
+         /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_bf2a6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf2a6.dir/link.txt --verbose=1
+        clang version 18.1.8
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin
+         "/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/dgawade/miniconda3/envs/ros_env/lib/libLTO.18.1.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_bf2a6 -L/Users/dgawade/miniconda3/envs/ros_env/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/dgawade/miniconda3/envs/ros_env/lib -v CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -lSystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-711
+        BUILD 23:53:06 Jul 30 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/Users/dgawade/miniconda3/envs/ros_env/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib -v -Wl,-v CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -o cmTC_bf2a6
+        make[1]: Leaving directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/dgawade/miniconda3/envs/ros_env/include]
+          add: [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        end of search list found
+        collapse include dir [/Users/dgawade/miniconda3/envs/ros_env/include] ==> [/Users/dgawade/miniconda3/envs/ros_env/include]
+        collapse include dir [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include] ==> [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        implicit include dirs: [/Users/dgawade/miniconda3/envs/ros_env/include;/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /Users/dgawade/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_bf2a6/fast]
+        ignore line: [/Users/dgawade/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_bf2a6.dir/build.make CMakeFiles/cmTC_bf2a6.dir/build]
+        ignore line: [make[1]: Entering directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU']
+        ignore line: [Building C object CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 18.1.8]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin]
+        ignore line: [x86_64-apple-darwin13.4: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/dgawade/miniconda3/envs/ros_env/bin/clang-18" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fbuiltin-headers-in-system-modules -fdefine-target-os-macros -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU -resource-dir /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18 -dependency-file CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/dgawade/miniconda3/envs/ros_env/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-apple-darwin24.1.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/dgawade/miniconda3/envs/ros_env/include]
+        ignore line: [ /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_bf2a6]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf2a6.dir/link.txt --verbose=1]
+        ignore line: [clang version 18.1.8]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin]
+        link line: [ "/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/dgawade/miniconda3/envs/ros_env/lib/libLTO.18.1.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_bf2a6 -L/Users/dgawade/miniconda3/envs/ros_env/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/dgawade/miniconda3/envs/ros_env/lib -v CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -lSystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/dgawade/miniconda3/envs/ros_env/lib/libLTO.18.1.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bf2a6] ==> ignore
+          arg [-L/Users/dgawade/miniconda3/envs/ros_env/lib] ==> dir [/Users/dgawade/miniconda3/envs/ros_env/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/dgawade/miniconda3/envs/ros_env/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a]
+        ignore line: [@(#)PROGRAM:ld  PROJECT:ld64-711]
+        ignore line: [BUILD 23:53:06 Jul 30 2024]
+        ignore line: [configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)]
+        ignore line: [Library search paths:]
+        ignore line: [	/Users/dgawade/miniconda3/envs/ros_env/lib]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        ignore line: [Framework search paths:]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        ignore line: [/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib -v -Wl -v CMakeFiles/cmTC_bf2a6.dir/CMakeCCompilerABI.c.o -o cmTC_bf2a6]
+        ignore line: [make[1]: Leaving directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-SGtIwU']
+        ignore line: []
+        ignore line: []
+        Library search paths: [;/Users/dgawade/miniconda3/envs/ros_env/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/dgawade/miniconda3/envs/ros_env/lib] ==> [/Users/dgawade/miniconda3/envs/ros_env/lib]
+        collapse library dir [/Users/dgawade/miniconda3/envs/ros_env/lib] ==> [/Users/dgawade/miniconda3/envs/ros_env/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Users/dgawade/miniconda3/envs/ros_env/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO"
+      binary: "/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/dgawade/miniconda3/envs/ros_env/include"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /Users/dgawade/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_4c58b/fast
+        /Users/dgawade/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_4c58b.dir/build.make CMakeFiles/cmTC_4c58b.dir/build
+        make[1]: Entering directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO'
+        Building CXX object CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 18.1.8
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin
+        x86_64-apple-darwin13.4: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/Users/dgawade/miniconda3/envs/ros_env/bin/clang-18" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fbuiltin-headers-in-system-modules -fdefine-target-os-macros -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO -resource-dir /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18 -dependency-file CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/dgawade/miniconda3/envs/ros_env/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/dgawade/miniconda3/envs/ros_env/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-apple-darwin24.1.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/dgawade/miniconda3/envs/ros_env/include
+         /Users/dgawade/miniconda3/envs/ros_env/bin/../include/c++/v1
+         /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_4c58b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c58b.dir/link.txt --verbose=1
+        clang version 18.1.8
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin
+         "/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/dgawade/miniconda3/envs/ros_env/lib/libLTO.18.1.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4c58b -L/Users/dgawade/miniconda3/envs/ros_env/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/dgawade/miniconda3/envs/ros_env/lib -v CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-711
+        BUILD 23:53:06 Jul 30 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/Users/dgawade/miniconda3/envs/ros_env/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib -v -Wl,-v CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4c58b
+        make[1]: Leaving directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/dgawade/miniconda3/envs/ros_env/include]
+          add: [/Users/dgawade/miniconda3/envs/ros_env/bin/../include/c++/v1]
+          add: [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        end of search list found
+        collapse include dir [/Users/dgawade/miniconda3/envs/ros_env/include] ==> [/Users/dgawade/miniconda3/envs/ros_env/include]
+        collapse include dir [/Users/dgawade/miniconda3/envs/ros_env/bin/../include/c++/v1] ==> [/Users/dgawade/miniconda3/envs/ros_env/include/c++/v1]
+        collapse include dir [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include] ==> [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        implicit include dirs: [/Users/dgawade/miniconda3/envs/ros_env/include;/Users/dgawade/miniconda3/envs/ros_env/include/c++/v1;/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /Users/dgawade/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_4c58b/fast]
+        ignore line: [/Users/dgawade/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_4c58b.dir/build.make CMakeFiles/cmTC_4c58b.dir/build]
+        ignore line: [make[1]: Entering directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO']
+        ignore line: [Building CXX object CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 18.1.8]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin]
+        ignore line: [x86_64-apple-darwin13.4: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/dgawade/miniconda3/envs/ros_env/bin/clang-18" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fbuiltin-headers-in-system-modules -fdefine-target-os-macros -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO -target-linker-version 951.9 -v -fcoverage-compilation-dir=/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO -resource-dir /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18 -dependency-file CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/dgawade/miniconda3/envs/ros_env/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/dgawade/miniconda3/envs/ros_env/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-apple-darwin24.1.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/dgawade/miniconda3/envs/ros_env/include]
+        ignore line: [ /Users/dgawade/miniconda3/envs/ros_env/bin/../include/c++/v1]
+        ignore line: [ /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_4c58b]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c58b.dir/link.txt --verbose=1]
+        ignore line: [clang version 18.1.8]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/dgawade/miniconda3/envs/ros_env/bin]
+        link line: [ "/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/dgawade/miniconda3/envs/ros_env/lib/libLTO.18.1.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4c58b -L/Users/dgawade/miniconda3/envs/ros_env/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/dgawade/miniconda3/envs/ros_env/lib -v CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/dgawade/miniconda3/envs/ros_env/lib/libLTO.18.1.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4c58b] ==> ignore
+          arg [-L/Users/dgawade/miniconda3/envs/ros_env/lib] ==> dir [/Users/dgawade/miniconda3/envs/ros_env/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/dgawade/miniconda3/envs/ros_env/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a]
+        ignore line: [@(#)PROGRAM:ld  PROJECT:ld64-711]
+        ignore line: [BUILD 23:53:06 Jul 30 2024]
+        ignore line: [configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)]
+        ignore line: [Library search paths:]
+        ignore line: [	/Users/dgawade/miniconda3/envs/ros_env/lib]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        ignore line: [Framework search paths:]
+        ignore line: [	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        ignore line: [/Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib -v -Wl -v CMakeFiles/cmTC_4c58b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4c58b]
+        ignore line: [make[1]: Leaving directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-z02nyO']
+        ignore line: []
+        ignore line: []
+        Library search paths: [;/Users/dgawade/miniconda3/envs/ros_env/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Users/dgawade/miniconda3/envs/ros_env/lib/clang/18/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/dgawade/miniconda3/envs/ros_env/lib] ==> [/Users/dgawade/miniconda3/envs/ros_env/lib]
+        collapse library dir [/Users/dgawade/miniconda3/envs/ros_env/lib] ==> [/Users/dgawade/miniconda3/envs/ros_env/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Users/dgawade/miniconda3/envs/ros_env/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/lib/cmake/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rcl_logging_spdlog/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig.cmake:41 (include)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rcl/cmake/rclConfig.cmake:41 (include)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/Users/dgawade/miniconda3/envs/ros_env/share/rviz_common/cmake/rviz_commonConfig.cmake:41 (include)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-Sz7tbD"
+      binary: "/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-Sz7tbD"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib"
+      CMAKE_MODULE_PATH: "/Users/dgawade/miniconda3/envs/ros_env/share/libyaml_vendor/cmake/Modules;/Users/dgawade/miniconda3/envs/ros_env/share/fastrtps_cmake_module/cmake/Modules;/Users/dgawade/miniconda3/envs/ros_env/share/eigen3_cmake_module/cmake/Modules;/Users/dgawade/miniconda3/envs/ros_env/share/tinyxml2_vendor/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-Sz7tbD'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /Users/dgawade/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_2933c/fast
+        /Users/dgawade/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_2933c.dir/build.make CMakeFiles/cmTC_2933c.dir/build
+        make[1]: Entering directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-Sz7tbD'
+        Building C object CMakeFiles/cmTC_2933c.dir/src.c.o
+        /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang -DCMAKE_HAVE_LIBC_PTHREAD  -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_2933c.dir/src.c.o -MF CMakeFiles/cmTC_2933c.dir/src.c.o.d -o CMakeFiles/cmTC_2933c.dir/src.c.o -c /Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-Sz7tbD/src.c
+        Linking C executable cmTC_2933c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2933c.dir/link.txt --verbose=1
+        /Users/dgawade/miniconda3/envs/ros_env/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dgawade/miniconda3/envs/ros_env/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/dgawade/miniconda3/envs/ros_env/lib -L/Users/dgawade/miniconda3/envs/ros_env/lib  CMakeFiles/cmTC_2933c.dir/src.c.o -o cmTC_2933c
+        make[1]: Leaving directory '/Users/dgawade/ros_rviz/build/rviz_plugin_tutorial/CMakeFiles/CMakeScratch/TryCompile-Sz7tbD'
+        
+      exitCode: 0
+...
