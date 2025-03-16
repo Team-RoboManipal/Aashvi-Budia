@@ -35,6 +35,4 @@ Here's a **README.md** file format for your request. It includes bullet points f
 ---
 
 ## **5. Report on STM32 Microcontrollers**  
-  
 
-Would you like any modifications or additional sections? 🚀
