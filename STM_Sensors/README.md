@@ -3,11 +3,11 @@
 **1. PlatformIO Project File**  
 
 **2. Report on Perception Sensors and ROS Integration**  
-- IMU (Inertial Measurement Unit)** 
-- LiDAR (Light Detection and Ranging)** 
-- Stereo Cameras** 
-- GPS (Global Positioning System)** 
-- ROS Integration**  
+- IMU (Inertial Measurement Unit)
+- LiDAR (Light Detection and Ranging) 
+- Stereo Cameras
+- GPS (Global Positioning System)
+- ROS Integration
 
 
 **3. Output Screenshot for PlatformIO Project**  
