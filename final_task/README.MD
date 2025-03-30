@@ -5,8 +5,7 @@ This project implements semantic segmentation using a custom U-Net model with sk
 
 I simplified the model as per the feedback and couldnt train it completely, but the the jupyter notebook shows the loss change. The segmented mask is of the previous model.
 
-![Image](https://github.com/user-attachments/assets/c66ead6e-d360-4af1-bcf7-64dbde1b9568)
- 
+<img src="https://i.imgflip.com/8s7ktm.jpg" alt="Alt text" width="200" height="200"> 
 
 ## Features
 - **Custom U-Net Architecture**: Designed for multi-class segmentation with skip connections.
