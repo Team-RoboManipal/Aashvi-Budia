@@ -36,13 +36,6 @@ The U-Net model consists of:
 3. Optimize with **Adam optimizer** and learning rate scheduling.
 4. Compute **IoU metric** for performance evaluation.
 
-## Running the Model
-Execute the training script:
-```python
-python train.py
-```
-This will train the model and save the best checkpoint.
-
 ## Evaluation
 The model is evaluated using:
 - **Intersection over Union (IoU)**: Measures segmentation accuracy.
@@ -56,8 +49,6 @@ python inference.py --image path/to/image.jpg
 This will output a segmented mask overlayed on the original image.
 
 ## Future Improvements
-- Add depth-based enhancements for improved segmentation.
-- Optimize for real-time inference on embedded devices.
 - Train on a larger dataset for better generalization.
 
 
