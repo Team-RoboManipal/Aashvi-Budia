@@ -4,8 +4,7 @@
 This project implements semantic segmentation using a custom U-Net model with skip connections in the decoder. The model is trained on the **Indian Driving Dataset (IDD)** to segment road scenes efficiently. The implementation includes data preprocessing, model training, validation, and evaluation. 
 
 
-                                                            https://i.imgflip.com/8s7ktm.jpg?a484104
-
+![Image](https://github.com/user-attachments/assets/c66ead6e-d360-4af1-bcf7-64dbde1b9568)
 I simplified the model as per the feedback and couldnt train it completely, but the the jupyter notebook shows the loss change. The segmented mask is of the previous model. 
 
 ## Features
